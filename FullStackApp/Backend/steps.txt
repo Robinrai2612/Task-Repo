@@ -1,0 +1,17 @@
+node server.js
+
+getALL
+http://localhost:8080/api/tutorials/
+
+get
+http://localhost:8080/api/tutorials/:id
+
+getonlyPublished
+http://localhost:8080/api/tutorials/published
+
+
+Model name is tutorial - collection name would be tutorials
+
+check at mongodb console
+use innovapptive
+db.tutorials.find()
